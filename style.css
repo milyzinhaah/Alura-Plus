@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --branco-principal: #FFFFFF;
+    --cinza-secundario: #C0C0C0;
+    --botao-azul: #167BF7;
+}
+
+/* Exemplo de aplicação */
+h1 {
+    color: var(--branco-principal);
+}
+p {
+    color: var(--cinza-secundario);
+}
+.botao {
+    background-color: var(--botao-azul);
+}
+.main-section {
+    background-image: url("img/Background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
